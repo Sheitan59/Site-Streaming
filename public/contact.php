@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     var_dump($_POST);
     try {
         // crée une connexion postgresql
-        $pdo = new PDO("pgsql:host=localhost;port=5432;dbname=db1;user=postgres;password=Habib*59*");
+        $pdo = new PDO("pgsql:host=localhost;port=5432;dbname=db1;user=postgres;password=");
     
         // Affiche un message si vous êtes connectées à postgresql
         if ($pdo) {
